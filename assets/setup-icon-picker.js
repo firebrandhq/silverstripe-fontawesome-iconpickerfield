@@ -1,6 +1,6 @@
 (function($) {
     var names = [];
-    $.get('https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/src/icons.yml',{
+    $.get('https://raw.githubusercontent.com/FortAwesome/Font-Awesome/v4.7.0/src/icons.yml',{
         cache: true
     }).done(function(result) {
         var parsedResult = jsyaml.load(result);
